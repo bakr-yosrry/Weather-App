@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #1e202b;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: #1e202b !important;
+    padding: 40px 0;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    border: 1px solid transparent;
+    padding: 8px 8px !important;
+    border-radius: 15px !important;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #009ad8 !important;
+    border: 1px solid #009ad8;
+}
+
+.ms-4 {
+    margin-left: 50px !important;
+}
+
+.head1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.head2 {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: -5px;
+}
+
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 350px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.hero form {
+    width: 100%;
+}
+
+.hero .input {
+    padding: 20px 25px;
+    background-color: #1e202b;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+
+.hero .input::placeholder {
+    color: #aaa;
+}
+
+.hero #submit {
+    top: 6px;
+    right: 8px;
+    background-color: #009ad8;
+    border: none;
+    transition: 0.3s;
+}
+
+.hero #submit:hover {
+    background-color: #00b7ff;
+}
+
+
+.sec-1 {
+    background-color: #1e202b;
+    padding: 10px 0;
+
+}
+
+.sec-1-1 {
+    position: relative;
+    bottom: 90px;
+}
+
+.day-1 {
+    background-color: #323544;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    overflow: hidden;
+}
+
+.day-2 {
+    background-color: #323544;
+    text-align: center;
+    overflow: hidden;
+}
+
+.day-3 {
+    background-color: #323544;
+    text-align: center;
+    overflow: hidden;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.sec-1 .day-1 {
+    background-color: #262936;
+}
+
+
+.day-2 {
+    background-color: #2d303d;
+}
+
+.day-1-foter,
+.day-2-foter,
+.day-3-foter {
+    background-color: #2d303d;
+    color: #aaa;
+    padding: 10px 20px;
+    font-weight: 500;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.day-1-foter {
+    border-top-left-radius: 10px;
+}
+
+.day-3-foter {
+    border-top-right-radius: 10px;
+}
+
+.day-1-main,
+.day-2-main,
+.day-3-main {
+    padding: 30px 20px;
+}
+
+.day-1 .degree {
+    font-size: 80px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.day-2 .degree,
+.day-3 .degree {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.weather-condition {
+    color: #009ad8;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+span {
+    margin: 0 8px;
+    color: #aaa;
+    font-size: 14px;
+}
+
+span img {
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.day-1-icon img,
+.day-2-icon img,
+.day-3-icon img {
+    width: 60px;
+}
+
+@media (max-width: 992px) {
+    .hero form {
+        width: 90%;
+    }
+
+    .sec-1 .col-md-4 {
+        margin-bottom: 20px;
+    }
+
+    .day-1 .degree {
+        font-size: 60px;
+    }
+}
+
+.butn {
+    top: 3px;
+    right: 5px;
+}
+
+.foot {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.butn-1 {
+    padding: 20px 100px 20px 20px !important;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+i {
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+.icon-circle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #1e202b;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.icon-circle:hover,
+.icon-circle:focus-visible {
+    background: #1e90ff;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+
+footer p {
+    margin-top: 20px;
+    color: #bfc1c8;
+}
